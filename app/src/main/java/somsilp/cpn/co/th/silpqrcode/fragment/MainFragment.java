@@ -25,6 +25,7 @@ public class MainFragment extends Fragment{
 //        Register Controller
         registerController();
 
+
     }   // Main Method
 
     private void registerController() {
