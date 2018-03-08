@@ -2,4 +2,6 @@
     <string name="app_name">Silp QR Code</string>
     <string name="user">User :</string>
     <string name="password">password</string>
+    <string name="register">Register</string>
+    <string name="message_register">Please Fill All Blank</string>
 </resources>
