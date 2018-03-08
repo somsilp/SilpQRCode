@@ -35,6 +35,7 @@
                 android:src="@drawable/ic_action_user" />
             <!--Text Field-->
             <EditText
+                android:id="@+id/edtuser"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/user"
@@ -56,15 +57,17 @@
                 android:src="@drawable/ic_action_password" />
             <!--Text Field-->
             <EditText
+                android:id="@+id/edtPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/password"
+                android:hint="Password "
                 android:inputType="textPassword" />
 
         </LinearLayout>
 
         <!--Login-->
 <Button
+    android:id="@+id/btnLogin"
     android:text="Login"
     android:layout_width="match_parent"
     android:layout_height="wrap_content" />
